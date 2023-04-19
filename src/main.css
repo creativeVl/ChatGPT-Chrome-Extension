@@ -1,0 +1,57 @@
+.chat_gpt_container_enhanced {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  padding: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-left:10px;
+  max-width:436px !important;
+  position:relative;
+}
+.chat_gpt_container_enhanced p:first-of-type{
+    margin-top:0px;
+}
+.chat_gpt_container_enhanced p:last-of-type{
+    margin-bottom:0px;
+}
+
+.chat_gpt_container_attribution{
+    position:absolute;
+    bottom:-16px;
+    right:0px;
+    font-size:12px;
+}
+
+.chat_gpt_container_enhanced p {
+    line-height:1.5em;
+}
+
+.chat_gpt_container_enhanced .loading {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.chat_gpt_container_enhanced.sidebar-free {
+  height: fit-content;
+}
+.gpt_commando_code_block{
+    display:block;
+    width:100%;
+    position:relative;
+}
+
+.gpt_commando_code_block_outer{
+    position:relative;
+    direction:ltr !important;
+    max-width:446px;
+}
